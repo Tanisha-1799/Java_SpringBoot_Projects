@@ -21,7 +21,7 @@ public class TopicController {
 	public List<Topic> getAllTopics() {
 		//The generated JSON has key names corresponding to property names of the topic class.
 		//The JSON values are the values of those properties							
-		return ;
+		return topicService.getAllTopics();
 		
 	}
 
