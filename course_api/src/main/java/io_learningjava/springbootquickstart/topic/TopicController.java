@@ -15,7 +15,7 @@ public class TopicController {
 	@RequestMapping("/topics")
 	public List<Topic> getAllTopics() {
 		//The generated JSON has key names corresponding to property names of the topic class.
-		//The JSON values are the values of those properties
+		//The JSON values are the values of those properties							
 		return Arrays.asList(
 				new Topic("spring","Spring Framework","Spring Framework description"),
 				new Topic("java","Core Java","Core Java description"),
