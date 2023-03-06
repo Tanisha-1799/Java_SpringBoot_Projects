@@ -19,5 +19,9 @@ public class TopicService {
 			
 			
 			); 
+	
+	public List<Topic> getAllTopics(){
+		return topics;
+	}
 
 }

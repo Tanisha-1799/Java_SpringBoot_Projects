@@ -21,17 +21,7 @@ public class TopicController {
 	public List<Topic> getAllTopics() {
 		//The generated JSON has key names corresponding to property names of the topic class.
 		//The JSON values are the values of those properties							
-		return Arrays.asList(
-				new Topic("spring","Spring Framework","Spring Framework description"),
-				new Topic("java","Core Java","Core Java description"),
-				new Topic("javascript","Core Javascript","Core Javascript description"),
-				new Topic("react","Basic react JS","Basics of React JS description "),
-				new Topic("angular","Basic Angular JS","Basics of Angular JS description")
-				
-				
-				
-				
-				); 
+		return ;
 		
 	}
 
