@@ -26,6 +26,7 @@ public class TopicController {
 	}
 	
 	public Topic getTopic(String id) {
+		return topicService.getTopic(id);
 		
 	}
 
