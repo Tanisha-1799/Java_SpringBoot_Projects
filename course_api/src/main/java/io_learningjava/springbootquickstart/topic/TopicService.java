@@ -33,6 +33,11 @@ public class TopicService {
 		topics.add(topic);
 		
 	}
+
+	public void updateTopic(String id, Topic topic) {
+		// TODO Auto-generated method stub
+		
+	}
 	
 
 }
