@@ -46,7 +46,7 @@ public class TopicService {
 	}
 
 	public void deleteTopic(String id) {
-		// TODO Auto-generated method stub
+		topics.removeIf(t->t.getId().equals(id));
 		
 	}
 	
