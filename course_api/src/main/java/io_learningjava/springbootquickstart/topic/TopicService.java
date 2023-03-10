@@ -45,10 +45,7 @@ public class TopicService {
 		
 	}
 
-	public void deleteTopic(String id) {
-		topics.removeIf(t->t.getId().equals(id));
-		
-	}
+	
 	
 
 }
